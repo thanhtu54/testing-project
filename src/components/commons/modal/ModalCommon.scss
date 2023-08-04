@@ -1,0 +1,20 @@
+@import "../../assets/styles/variables.scss";
+
+.modal-style {
+  .ant-modal-footer {
+    :where(.css-dev-only-do-not-override-txh9fw).ant-btn-default:not(
+        :disabled
+      ):not(.ant-btn-disabled):hover {
+      border-color: $primary-color;
+      color: $primary-color;
+    }
+    :where(.css-dev-only-do-not-override-txh9fw).ant-btn-primary {
+      background-color: $primary-color;
+    }
+    :where(.css-dev-only-do-not-override-txh9fw).ant-btn-primary:not(
+        :disabled
+      ):not(.ant-btn-disabled):hover {
+      background-color: rgb(224, 171, 103);
+    }
+  }
+}

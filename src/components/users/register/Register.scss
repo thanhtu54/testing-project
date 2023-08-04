@@ -1,0 +1,59 @@
+@import "../../assets/styles/variables.scss";
+
+.wrapper-register {
+  width: 100%;
+  padding: 30px 20px;
+  .wrapper-form {
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+    .wrapper-input {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 30px;
+      div {
+        width: 100%;
+      }
+    }
+    .wrapper-button {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      button {
+        width: 200px;
+      }
+      .ant-form-item:last-of-type {
+        margin-right: 128px;
+      }
+    }
+  }
+  h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+  }
+  h4 {
+    text-decoration: underline;
+    margin-bottom: 30px;
+  }
+  .ant-form-item {
+    :where(.css-dev-only-do-not-override-txh9fw).ant-input:hover {
+      border-color: $primary-color;
+    }
+    :where(.css-dev-only-do-not-override-txh9fw).ant-input:focus,
+    :where(.css-dev-only-do-not-override-txh9fw).ant-input-focused {
+      border-color: $primary-color;
+      box-shadow: 0 0 0 2px rgba(184, 185, 186, 0.1);
+    }
+    .ant-row {
+      flex-direction: column;
+      width: 100%;
+      .ant-col {
+        text-align: left;
+      }
+      .ant-col-16 {
+        max-width: 100%;
+        flex: 1 0;
+      }
+    }
+  }
+}

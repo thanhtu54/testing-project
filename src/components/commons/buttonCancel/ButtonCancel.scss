@@ -1,0 +1,11 @@
+@import "../../assets/styles/variables.scss";
+
+.wrapper-button {
+  :where(.css-dev-only-do-not-override-txh9fw).ant-btn-default:not(
+      :disabled
+    ):not(.ant-btn-disabled):hover {
+    background-color: $primary-color;
+    border: none;
+    color: #ffff;
+  }
+}
